@@ -8,3 +8,4 @@ pretrained/*
 predictions/*
 **/stanford*/*
 scratch*
+training_config

@@ -63,6 +63,7 @@ class AnnotatedDoc:
 
         # Get text as one string and tokenized sents
         with open(txt) as myf:
+            print('\n\nReading file', txt)
             text = myf.read()
 
         doc = nlp(text)
